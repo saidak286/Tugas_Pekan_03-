@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi Mahasiswa</title>
+    </head>
+    <body>
+        <form action="contact.php" method="POST">
+            <fieldset>
+            <legend>Registrasi Mahasiswa</legend>
+            <p>
+                <label for="date">Tanggal</label>
+                <input type="date" name="Tanggal" id="Tanggal" required>
+            </p>
+            <h4>DATA DIRI</h4>
+            <hr>    
+            <ol>
+                <label for="name">Nama</label>
+                <input type="text" name="Nama" id="Nama" required>
+            </ol>
+            <ol>
+                <label for="Tanggal Lahir">Tanggal Lahir</label>
+                <input type="date" name="Tanggal Lahir" id="Tanggal Lahir" required>
+            </ol>
+            <h4>KONTAK INFORMASI</h4> 
+            <hr>
+            <ol>
+                <label for="address">Alamat</label>
+                <input type="text" name="Alamat" id="Alamat" required>
+            </ol>   
+            <ol>
+                <label for="city">Kota</label>
+                <input type="text" name="Kota" id="Kota" required>
+                <label for="provice">Provinsi</label>
+                <input type="text" name="Provisi" id="Provisi">
+            </ol>
+            <ol>
+                <label for="zip code">Kode Pos</label>
+                <input type="text" name="Kode Pos" id="Kode Pos" required>
+                <label for="Country">Negara</label>
+                <input type="text" name="Negara" id="Negara" required>
+            </ol>
+            <ol>
+                <label for="phone">Nomor Telepon</label>
+                <input type="text" name="Nomor Telepon" id="Nomor Telepon" required>
+                <label for="email">E-mail</label>
+                <input type="text" name="E-mail" id="E-mail" required>
+            </ol>
+            <ol>
+                <label for="scholarship">Beastudi</label>
+                    <select name="Beastudi">
+                        <option value="">--Pilih--</option>
+                        <option value="bp">Beastudi Prestasi</option>
+                        <option value="bt">Beastudi Tahfidz</option>
+                        <option value="bps">Beastudi Potongan Semester</option>
+                        <option value="bju">Beastudi Jalur UTBK</option>
+                        <option value="bjr">Beastudi Jalur Rapor</option>
+                        <option value="bkt">Beastudi Keluarga Terdampak</option>
+                    </select>
+            </ol>
+            <h4>INFORMASI JURUSAN</h4>
+            <hr>
+            <ol>
+                <label for="major">Program Studi :</label>
+                <input type="radio" name="SI" value="S" />Sistem Informasi
+                <input type="radio" name="TI" value="T" />Teknik Informatika
+            </ol>
+            <ol>
+                <label for="payment through">Pembayaran Melalui :</label>
+                <input type="radio" name="cash" />Tunai
+                <input type="radio" name="cheque" />Cek
+                <input type="radio" name="credit card" />Kartu Kredit
+            </ol>
+            <ol>
+                <label for="coment">komentar</label>
+                <textarea name="komentar" cols="30" rows="10"></textarea>
+            </ol>
+            <p>
+                <input type="submit" name="submit" value="Regitrasi">
+            </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
