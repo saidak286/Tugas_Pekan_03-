@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Siswa</title>
+</head>
+<body>
+<form class="form-horizontal">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend>Registrasi Mahasiwa</legend>
+    
+    <!-- Appended checkbox -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="date">Tanggal</label>    
+              <input type="date">     
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <h4>DATA DIRI</h4>
+    <hr/>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Nama">Nama Lengkap</label>  
+      <div class="col-md-4">
+      <input id="Nama" name="Nama" type="text" placeholder="Nama Lengkap" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Appended checkbox -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="date">Tanggal Lahir</label>    
+              <input type="date">     
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <h4>KONTAK INFORMASI</h4> 
+    <hr/>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="address">Alamat</label>  
+      <div class="col-md-8">
+      <input id="address" name="address" type="text" placeholder="Alamat lengkap" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="city">Kabupaten/Kota</label>  
+      <div class="col-md-4">
+      <input id="city" name="city" type="text" placeholder="Kabupaten/Kota" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="provice">Provinsi</label>  
+      <div class="col-md-4">
+      <input id="provice" name="provice" type="text" placeholder="Provinsi" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="zip code">Kode Pos</label>  
+      <div class="col-md-4">
+      <input id="zip code" name="zip code" type="text" placeholder="Kode Pos" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Country">Negara</label>  
+      <div class="col-md-4">
+      <input id="Country" name="Country" type="text" placeholder="Negara" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="phone">Nomor Telepon</label>  
+      <div class="col-md-4">
+      <input id="phone" name="phone" type="text" placeholder="+62 ..." class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="e-mail">E-mail</label>  
+      <div class="col-md-4">
+      <input id="e-mail" name="e-mail" type="text" placeholder="...@....com" class="form-control input-md">
+        
+      </div>
+    </div>
+    
+    <!-- Select Basic -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="scholarship">Beastudi</label>
+      <div class="col-md-4">
+        <select id="scholarship" name="scholarship" class="form-control">
+          <option value="--pilih--">--pilih--</option>
+          <option value="Beastudi Prestasi">Beastudi Prestasi</option>
+          <option value="Beastudi Tahfidz">Beastudi Tahfidz</option>
+          <option value="Beastudi Potongan Semester">Beastudi Potongan Semester</option>
+          <option value="Beastudi Jalur UTBK">Beastudi Jalur UTBK</option>
+          <option value="Beastudi Jalur Rapor">Beastudi Jalur Rapor</option>
+          <option value="Beastudi Keluarga Terdampak">Beastudi Keluarga Terdampak</option>
+        </select>
+      </div>
+    </div>
+    <h4>INFORMASI JURUSAN</h4>
+    <hr/>
+    <!-- Multiple Radios -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="prodi">Program Studi</label>
+      <div class="col-md-4">
+      <div class="radio">
+        <label for="prodi-0">
+          <input type="radio" name="prodi" id="prodi-0" value="SI" checked="checked">
+          Sistem Informasi
+        </label>
+        </div>
+      <div class="radio">
+        <label for="prodi-1">
+          <input type="radio" name="prodi" id="prodi-1" value="TI">
+          Teknik Informatika
+        </label>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Multiple Radios (inline) -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="payment ">Pembayaran </label>
+      <div class="col-md-4"> 
+        <label class="radio-inline" for="payment -0">
+          <input type="radio" name="payment " id="payment -0" value="Tunai" checked="checked">
+          Tunai
+        </label> 
+        <label class="radio-inline" for="payment -1">
+          <input type="radio" name="payment " id="payment -1" value="Cek">
+          Cek
+        </label> 
+        <label class="radio-inline" for="payment -2">
+          <input type="radio" name="payment " id="payment -2" value="Kartu Kredit">
+          Kartu Kredit
+        </label>
+      </div>
+    </div>
+    
+    <!-- Textarea -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="coment">Komentar</label>
+      <div class="col-md-4">                     
+        <textarea class="form-control" id="coment" name="coment"></textarea>
+      </div>
+    </div>
+    
+    </fieldset>
+    </form>
+</body>    
+</html>
